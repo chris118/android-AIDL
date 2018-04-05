@@ -2,7 +2,7 @@
 
 演示使用AIDL跨进程通信
 
-##Server：
+### Server：
 
 1. AIDL可以找到java文件，例如Result.java
 
@@ -28,7 +28,7 @@ interface ICompleteCallback {
 }
 ```
 
-Client:
+### Client:
 
 1. copy所有Server的AIDL文件夹到main
 
